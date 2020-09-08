@@ -1,12 +1,10 @@
-html{
+body, ul, li, img, h1, h2{
     margin: 0;
     padding: 0;
 }
 body {
-    background-color: #222222;
-}
-img {
-    max-width: 25%;
+    background-color: #d9d5d8;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .banner img {
@@ -18,11 +16,14 @@ img {
 header h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 150px;
+    max-width: 100%;
     color: #222222;
+    text-shadow: 5px 5px 3px #7c777c;
     margin: 0;
     position: absolute;
     top: 0;
     left: 50px;
+    white-space: nowrap;
 }
 nav {
     background-color: #F3F7F0;
@@ -31,24 +32,114 @@ nav {
     top: 190px;
     left: 50px;
     border-radius: 15px;
+    padding: 5px;
 }
 nav ul {
     white-space: nowrap;
 }
 nav li {
-    width: 25%;
+    width: 100%;
+    text-align: center;
     display: inline-block;
-    font-size: 35px;
+    font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     width: 200px;
+    margin: 10px;
+}
+.tagline {
+    max-width: 100%;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #F3F7F0;
+    border-radius: 20px;
+}
+.tagline h3 {
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.tagline p {
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
 }
 
-section {
+.acts {
+    max-width: 100%;
+    width: 90%;
+    max-height: 50%;
+    height: 1000px;
+    margin: 10px auto;
+    background-color: #d9d5d8;
+}
+.acts h3 {
+    font-size: 60px;
+    text-align: center;
+    margin: 20px auto 5px auto;
+    text-decoration: underline;
+}
+.images {
     background-color: #F3F7F0;
+    margin: 22px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    float: left;
+    max-width: 100%;
+    width: 30%;
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+figure img {
+    width: 100%;
+
+    /* box-shadow: 7px 7px 0 gray;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg); */
+
+    /* float: left; */
+    /* white-space: nowrap; */
+    /* margin: 1.66%; */
+    
+}
+.signup {
+    background-color: #fac44b;
+    max-width: 100%;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.signup h3 {
+    font-size: 70px;
+    margin: 2px;
+}
+.signup form {
+    background-color: #F3F7F0;
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
 }
 
 main {
-    background-color: #F3F7F0;
+    background-color: #7fc4be;
+    max-width: 100%;
+    width: 1200px;
+    padding: 10px 40px;
+    margin: 10px auto;
+    
+}
+
+main article {
+    margin: auto;
 }
 
 footer {
